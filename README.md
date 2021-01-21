@@ -1,8 +1,8 @@
 # ITGID.info
-## Simple Slider
+## Работаем с изображениями в JavaScript
 ### https://itgid.info
 
-|JavaScript работаем с изображениями. Получаем данные из файла, создаем и выводим img, добавляем описание и класс
+JavaScript работаем с изображениями. Получаем данные из файла, создаем и выводим img, добавляем описание и класс
 ### Посмотреть видеоурок на Youtube
 https://youtu.be/bEuFi9OvgnA
 [![Посмотреть видео](https://github.com/itgidinfo/javascript_work_image/blob/master/images/cover.png?raw=true)](https://youtu.be/bEuFi9OvgnA)
