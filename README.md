@@ -2,10 +2,10 @@
 ## Simple Slider
 ### https://itgid.info
 
-Простой слайдер на javascript. Возможность листания в правую и левую сторону, перемотка.
+|JavaScript работаем с изображениями. Получаем данные из файла, создаем и выводим img, добавляем описание и класс
 ### Посмотреть видеоурок на Youtube
-https://youtu.be/UsLpqTXd5vs
-[![Посмотреть видео](https://github.com/itgidinfo/simple_slider/blob/master/images/cover.png?raw=true)](https://youtu.be/UsLpqTXd5vs)
+https://youtu.be/bEuFi9OvgnA
+[![Посмотреть видео](https://github.com/itgidinfo/javascript_work_image/blob/master/images/cover.png?raw=true)](https://youtu.be/bEuFi9OvgnA)
 
 ### Курсы ItGid.info
 

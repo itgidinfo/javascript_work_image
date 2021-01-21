@@ -1,18 +1,31 @@
-let offset = 0;
-const sliderLine = document.querySelector('.slider-line');
+const imageOut = document.querySelector('.image-out');
+const heroName = document.querySelector('.hero-name');
+const heroMovie = document.querySelector('.hero-movie');
+const heroUniv = document.querySelector('.hero-univ');
 
-document.querySelector('.slider-next').addEventListener('click', function(){
-    offset = offset + 256;
-    if (offset > 768) {
-        offset = 0;
-    }
-    sliderLine.style.left = -offset + 'px';
-});
+for (let key in images) {
+    let img = document.createElement('img');
+    img.setAttribute('data-key', key);
+    img.src = 'images/' + key + '.png';
+    imageOut.append(img);
+}
 
-document.querySelector('.slider-prev').addEventListener('click', function () {
-    offset = offset - 256;
-    if (offset < 0) {
-        offset = 768;
+imageOut.addEventListener('click', showInfo);
+
+function showInfo(event) {
+    // console.dir(event.target);
+    const key = event.target.dataset['key'];
+    console.log(key);
+    if (key === undefined) {
+        return true;
     }
-    sliderLine.style.left = -offset + 'px';
-});
+    heroName.textContent = images[key]['name'];
+    heroMovie.textContent = images[key]['movie'];
+    heroUniv.textContent = images[key]['universe'];
+
+    document.querySelectorAll('.image-out img').forEach(item => {
+        item.classList.remove('active');
+    });
+
+    event.target.classList.add('active');
+}
